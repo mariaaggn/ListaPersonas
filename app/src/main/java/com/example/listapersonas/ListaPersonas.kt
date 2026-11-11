@@ -6,8 +6,8 @@ package com.example.listapersonas
     import android.widget.TextView
     import androidx.recyclerview.widget.RecyclerView
 
-    class PersonaAdapter(private val lista: List<Persona>) :
-        RecyclerView.Adapter<PersonaAdapter.PersonaViewHolder>() {
+    class ListaPersonas(private val lista: List<Persona>) :
+        RecyclerView.Adapter<ListaPersonas.PersonaViewHolder>() {
 
         class PersonaViewHolder(view: android.view.View) : RecyclerView.ViewHolder(view) {
             val imgFoto: ImageView = view.findViewById(R.id.imgFoto)

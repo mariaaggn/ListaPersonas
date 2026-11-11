@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         val recycler = findViewById<RecyclerView>(R.id.recyclerPersonas)
         recycler.layoutManager = LinearLayoutManager(this)
-        recycler.adapter = PersonaAdapter(PersonaProvider.cargarPersonas())
+        recycler.adapter = ListaPersonas(DatosPersonas.cargarPersonas())
     }
 }
