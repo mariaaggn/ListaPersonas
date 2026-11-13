@@ -1,6 +1,6 @@
 package com.example.listapersonas
 
-class DatosPersonas {
+class PersonaProvider {
     companion object {
         fun cargarPersonas(): MutableList<Persona> {
             return mutableListOf(
